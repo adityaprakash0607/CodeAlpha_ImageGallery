@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="city">City</button>
+      <button data-filter="animals">Animals</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery">
+      <div class="gallery-item" data-category="nature">
+        <img src="image/nature 1 - Copy.jpg" height="300px" height="400px" alt="Nature"/>
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="image/city 1 - Copy.jpg"  height="300px" width="400px" alt="City"/>
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <img src="image/animal 1 - Copy.jpg"  height="300px" width="400px" alt="Animals"/>
+      </div>
+      <div class="gallery-item" data-category="nature">
+        <img src="image/nature 2 - Copy.jpg"  height="300px" width="400px" alt="Nature"/>
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="image/city 2 - Copy.jpg"  height="300px" width="400px" alt="City"/>
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <img src="image/animal 2 - Copy.jpg"  height="300px" width="400px" alt="Animals"/>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" src="" alt="Preview" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
