@@ -1,2 +1,2 @@
 # CodeAlpha_ImageGallery
-Image GAalery
+Image Gallery
